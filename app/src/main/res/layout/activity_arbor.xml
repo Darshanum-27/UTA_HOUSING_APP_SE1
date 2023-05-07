@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".arbor">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="264dp"
+                app:srcCompat="@drawable/arbor" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:paddingLeft="30sp"
+                android:paddingTop="10sp"
+                android:paddingRight="20sp"
+                android:text="ABOUT ARBOR OAKS"
+                android:textColor="#3636DF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:paddingLeft="30sp"
+                android:paddingTop="20sp"
+                android:text="Address"
+                android:textColor="#FAF6F6"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:paddingLeft="30sp"
+                android:paddingTop="10sp"
+                android:paddingRight="30sp"
+                android:text="1000 - 1008 GREEK ROW DR., ARLINGTON, TEXAS"
+                android:textColor="#F4EFEF" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:paddingLeft="30sp"
+                android:paddingTop="15sp"
+                android:paddingRight="30sp"
+                android:text="Welcome to Arbor Oaks, one of The University of Texas at Arlington's student apartment communities. This community features a large list of community features including a swimming pool and club house. Custom designed for your comfort and convenience, these spacious apartments are located in the heart of the UT Arlington campus."
+                android:textColor="#EFEBEB"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100sp"
+                android:layout_marginRight="100sp"
+                android:onClick="arborselect"
+                android:text="Enroll Now" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:paddingLeft="30sp"
+                android:paddingTop="10sp"
+                android:paddingRight="30sp"
+                android:text="More Pictures"
+                android:textColor="#F6F2F2"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="281dp"
+                app:srcCompat="@drawable/a2" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="343dp"
+                app:srcCompat="@drawable/a4" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="325dp"
+                app:srcCompat="@drawable/a1" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="353dp"
+                app:srcCompat="@drawable/a5" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="352dp"
+                app:srcCompat="@drawable/a3" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:paddingLeft="30sp"
+                android:paddingTop="20sp"
+                android:paddingRight="30sp"
+                android:text="About US"
+                android:textColor="#F1E7E7"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="102dp"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="381dp"
+                android:background="#4297BD"
+                android:paddingLeft="20sp"
+                android:paddingTop="30sp"
+                android:text="
+    HOUSING INFORMATION\n
+    \t ________________________________\n
+    University Housing Office:\n
+    University Center Suite 150\n
+    301 W First Street\n
+    Arlington, Texas 76019\n\n
+
+    CONTACT US\n
+    \t ________________________________\n
+    Housing: 817-272-2791\n
+    Housing@uta.edu\n
+    Apartment and Res Life: 817-272-2926\n
+    livingoncampus@uta.edu\n
+
+    "
+                android:textColor="#F6F5F5"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
