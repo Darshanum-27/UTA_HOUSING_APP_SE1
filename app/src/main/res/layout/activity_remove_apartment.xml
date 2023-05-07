@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".RemoveApartment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView34"
+                android:layout_width="match_parent"
+                android:layout_height="304dp"
+                app:srcCompat="@drawable/a1" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:paddingLeft="30sp"
+                android:paddingTop="50sp"
+                android:paddingRight="30sp"
+                android:paddingBottom="20sp"
+                android:text="Please Enter Following Details to Remove Apartment"
+                android:textColor="#F4F3F3"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:paddingLeft="30sp"
+                android:paddingTop="20sp"
+                android:paddingRight="30sp"
+                android:text="Enter The Apartment Name"
+                android:textColor="#F1ECEC"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/dropdown6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="50dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:backgroundTint="#F3EEEE" />
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:paddingLeft="30sp"
+                android:paddingTop="20sp"
+                android:paddingRight="30sp"
+                android:text="Enter the Furnished/Unfurnished"
+                android:textColor="#F1ECEC"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/dropdown10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="50dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:backgroundTint="#F3EEEE" />
+
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:paddingLeft="30sp"
+                android:paddingTop="20sp"
+                android:paddingRight="30sp"
+                android:text="Enter the Room Type"
+                android:textColor="#F1ECEC"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/dropdown11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="50dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:backgroundTint="#F3EEEE" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:paddingLeft="30sp"
+                android:paddingTop="30sp"
+                android:text="Enter the Apartment Number"
+                android:textColor="#F4F1F1"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/input6"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginRight="30sp"
+                android:layout_marginBottom="20sp"
+                android:background="@drawable/ic_launcher_background"
+                android:backgroundTint="#F4EEEE"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginRight="30sp"
+                android:layout_marginBottom="20sp"
+                android:onClick="remove"
+                android:text="Remove Apartment" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:paddingLeft="20sp"
+                android:paddingTop="40sp"
+                android:text="ABOUT US"
+                android:textColor="#F3ECEC"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="match_parent"
+                android:layout_height="122dp"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="381dp"
+                android:background="#4297BD"
+                android:paddingLeft="20sp"
+                android:paddingTop="30sp"
+                android:text="
+    HOUSING INFORMATION\n
+    \t ________________________________\n
+    University Housing Office:\n
+    University Center Suite 150\n
+    301 W First Street\n
+    Arlington, Texas 76019\n\n
+
+    CONTACT US\n
+    \t ________________________________\n
+    Housing: 817-272-2791\n
+    Housing@uta.edu\n
+    Apartment and Res Life: 817-272-2926\n
+    livingoncampus@uta.edu\n
+
+"
+                android:textColor="#F6F5F5"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
